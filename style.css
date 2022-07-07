@@ -1,14 +1,30 @@
-/* Universal*/
 body {
     margin: 0px;
     padding: 0;
 }
 
-/* Start of banner section*/
+.banner {
+    background-image: url(images/donation0.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 580px;
+    width: 100%;
+    margin-top: -32px;
 
-/* End of banner section*/
 
-/* Start of Donate-now section*/
+
+}
+
+.overlay {
+    width: 100%;
+    height: 100%;
+    font-size: 26px;
+    color: orangered;
+    -webkit-backdrop-filter: blur(100px);
+    backdrop-filter: blur(5px);
+
+}
+
 .donate-today {
     height: 650px;
 }
@@ -75,7 +91,6 @@ body {
 }
 
 
-/*donate-plan*/
 .d-plan {
     background-color: #fceded;
     height: 600px;
@@ -133,7 +148,7 @@ body {
 
 
 
-/* Start of update section*/
+
 .update {
     min-height: 450px;
 }
@@ -186,7 +201,7 @@ body {
 }
 
 
-/* Start of footer section*/
+
 footer {
     justify-content: center;
     height: 175px;
